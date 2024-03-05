@@ -1,14 +1,3 @@
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
-<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
-<!-- * * * * * * * * * * and can be replaced.  * * * * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-<!-- * * * * * * * * * Delete the template below * * * * * * * * * -->
-<!-- * * * * * * * to get started with your project! * * * * * * * -->
-<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
-
-
 <main class="main">
     <div class="content">
         <div class="inicio">
@@ -22,59 +11,49 @@
 
                     <div class="collapse navbar-collapse justify-content-center" id="navbarS">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
+                            <div class="nav-item">
                                 <a href="#carouselE" class="nav-link text-white">Inicio</a>
-                            </li>
-                            <li class="nav-item">
+                            </div>
+                            <div class="nav-item">
                                 <a href="#servicios" class="nav-link  text-white">Servicios</a>
-                            </li>
-                            <li class="nav-item">
+                            </div>
+                            <div class="nav-item">
                                 <a href="#Quienessomos" class="nav-link  text-white">Quienes somos</a>
-                            </li>
-                            <li class="nav-item">
+                            </div>
+                            <div class="nav-item">
                                 <a href="#Contactos" class="nav-link text-white">Contactos</a>
-                            </li>
+                            </div>
                         </ul>
                     </div>
                 </div>
             </nav>
-
-
-
-            <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="../assets/banner.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption d-flex justify-content-between align-items-center align-self-end">
-                            <div class="text-left">
-                                <h1 class="h3-bold">Seguridad Profesional a tu alcance con SESPRIV</h1>
-                                <p class="titulobanner">—— Especializados en Seguridad Privada S.DE R.L</p>
-                                <p>Protege lo que más importa con nuestro equipo altamente capacitado. Estamos aquí para
-                                    ti las 24 horas del día, los 7 días de la semana.</p>
-                                <div class="col-md-5"><a href="#" class="btn btn-primary btn-lg mt-3 h3-bold">Contactar
-                                        <img src="../assets/whatsapp.png" style="max-width: 15%;" alt="...">
-                                    </a>
-                                </div>
-
-                            </div>
-                            <div>
-                                <img src="../assets/icono.png" class="d-block w-100" alt="">
-                            </div>
-                        </div>
+           
+            <div class="hero d-flex justify-content-center align-items-center">
+                <div class="d-flex align-items-center w-75 h-75 text-white p-0 texto-hero">
+                    <div>
+                        <img src="../assets/icono.png" class="d-block w-100" alt="">
                     </div>
+                    <div class="text-left ">
+                        <h1 class="h3-bold">Seguridad Profesional a tu alcance con SESPRIV</h1>
+                        <p class="titulobanner">—— Especializados en Seguridad Privada S.DE R.L</p>
+                        <p>Protege lo que más importa con nuestro equipo altamente capacitado. Estamos aquí para
+                            ti las 24 horas del día, los 7 días de la semana.</p>
+                        <div class="col-md-5"><a href="https://wa.me/50472409525" class="btn btn-primary btn-lg mt-3 h3-bold">Contactar
+                            <img src="../assets/whatsapp.png" style="max-width: 15%;" alt="...">
+                            </a>
+                        </div>
+
+                    </div>
+                    
                 </div>
             </div>
 
-
-            <app-servicios></app-servicios>
-
-
-
+            <app-servicios></app-servicios> 
             <section id="Quienessomos" class="section-custom text-white">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6 d-flex justify-content-center align-items-center">
-                            <img src="../assets/imgsectQ.png" class="img-fluid mb-5" style="max-width: 90%;"
+                        <div class="col-md-6 d-flex align-items-center">
+                            <img src="../assets/imgsectQ.png" class="img-fluid" style="max-width: 90%;"
                                 alt="Imagen">
                         </div>
                         <div class="col-md-6 mt-5">
@@ -95,8 +74,7 @@
                                     <h5 href="#">Profesionalismo y Experiencia</h5>
                                     <p>Experiencia de más de 10 años</p>
                                 </div>
-
-                                <button type="button" class="btn btn-primary mb-5 btn-lg font-weight-bold">Ver
+                                <button type="button" class="btn-quienes-somos btn btn-primary mb-5 btn-lg font-weight-bold">Ver
                                     más</button>
 
                             </div>
@@ -124,41 +102,42 @@
                 <div class="row">
                     <div class="col-md-6">
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.762364377724!2d-87.20993279999999!3d14.092986099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd6c48209f0b%3A0xbf3472378bea1262!2sSESPRIV!5e0!3m2!1sen!2sus!4v1646051994579!5m2!1sen!2sus"
-                            width="550" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
+                        class="mapa-google"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3876.762364377724!2d-87.20993279999999!3d14.092986099999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f6fbd6c48209f0b%3A0xbf3472378bea1262!2sSESPRIV!5e0!3m2!1sen!2sus!4v1646051994579!5m2!1sen!2sus"
+                        allowfullscreen="" loading="lazy"></iframe>
+                    </div> 
 
 
-                    <div class="col-md-6 mb-0">
-                        <h3>iEstamos Cerca de Ti en 5 Departamentos!</h3>
-                        <h3>Nuestra Presencia en Cinco Departamentos</h3>
-                        <p>Servicios Especializados en Seguridad Privada S.DE R.L. tiene su oficina principal en
+                    <div class="col-md-6 mt-2 mb-2">
+                        <h3 class="text-center mb-2 fw-bold">¡Nos ubicamos en Tegucigalpa!</h3>
+                        <h4 class="text-center mt-2">Tenemos cobertura en 5 departamentos</h4>
+                        <p class="">Servicios Especializados en Seguridad Privada S.DE R.L. tiene su oficina principal en
                             Tegucigalpa, pero también operamos en otros cinco departamentos. Esto garantiza una amplia
                             cobertura y proximidad a tu hogar o negocio, reforzando nuestro compromiso con tu seguridad
                             en:</p>
-
-                        <ul class="list-group">
-                            <li class="list-group-item d-flex justify-content-center align-items-center">
-                                <img src="../assets/escudo.png" class="img-fluid me-5" style="max-width: 4%;"
+                        
+                        <section class="d-flex justify-content-between">
+                            <div class=" d-flex justify-content-center align-items-center flex-column">
+                                <img src="../assets/escudo.png" class="img-fluid h-25" 
                                     alt="Imagen">
-                                Tegucigalpa
-                            </li>
-                            <li class="list-group-item d-flex justify-content-center align-items-center">
-                                <img src="../assets/escudo.png" class="img-fluid me-5" style="max-width: 4%;"
-                                    alt="Imagen"> San
-                                Pedro Sula
-                            </li>
-                            <li class="list-group-item d-flex justify-content-center align-items-center">
-                                <img src="../assets/escudo.png" class="img-fluid me-5" style="max-width: 4%;"
-                                    alt="Imagen"> La
-                                Ceiba
-                            </li>
-                            <li class="list-group-item d-flex justify-content-center align-items-center">
-                                <img src="../assets/escudo.png" class="img-fluid me-5" style="max-width: 4%;"
+                                <p>Tegucigalpa</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <img src="../assets/escudo.png" class="img-fluid h-25" 
                                     alt="Imagen">
-                                Choluteca
-                            </li>
-                        </ul>
+                               <p> S.P.S</p>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <img src="../assets/escudo.png" class=" img-fluid h-25" 
+                                    alt="Imagen"> 
+                                    <P>La Ceiba</P>
+                            </div>
+                            <div class="d-flex justify-content-center align-items-center flex-column">
+                                <img src="../assets/escudo.png" class="img-fluid h-25" 
+                                    alt="Imagen">
+                               <p> Choluteca</p>
+                            </div>
+                        </section>
 
                     </div>
                 </div>

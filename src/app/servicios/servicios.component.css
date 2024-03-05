@@ -107,5 +107,19 @@
     border-top-right-radius: 1px; 
   }
   
-  
-  
+  @media(max-width:480px){
+    .mt-2{
+      margin-top: 2.2rem!important;
+    }
+    .mt-5{
+      margin-top: 2.2rem!important;
+    }
+  }
+  @media(max-width:415px){
+    .mt-2{
+      margin-top: 1rem!important;
+    }
+    .mt-5{
+      margin-top: 1rem!important;
+    }
+  }
