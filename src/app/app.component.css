@@ -2,53 +2,6 @@
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-/* NAVS  */
-
-
-.navbar-custom {
-  background-color: #1E1E1E; 
-}
-
-.navbar-custom {
-  border-bottom: 2px solid transparent; 
-  box-shadow: 0px 2px 4px rgba(229, 191, 0, 0.5); 
-}
-
-nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  margin-right: 20px;
-  position: relative; 
-}
-
-.nav-link {
-  text-decoration: none;
-  color: #E5BF00;
-  position: relative;
-}
-
-.nav-link::after {
-  content: "";
-  display: block;
-  width: 0;
-  height: 5px;
-  background-color: #E5BF00;
-  position: absolute;
-  bottom: -5px;
-  left: 0;
-  transition: width 0.3s ease; 
-}
-
-.nav-link:hover::after,
-.nav-link.active::after { 
-  width: 100%;
-}
-
 .section {
   height: 500px;
   border: 1px solid #E5BF00;
@@ -79,10 +32,6 @@ nav li {
 
 /* seccion de quienes somos  */
 
-.section-custom {
-  background-color: #1E1E1E; 
-}
-
 
 @media(max-width:480px){
   .mapa-google {
@@ -96,10 +45,7 @@ nav li {
   .hero{
   margin-top: 0!Important;
   }
-  .navbar{
-    height: 9vh!important
-    ;
-  }
+  
   .btn-quienes-somos{
     width: 93%;
     margin-left: auto;
@@ -116,10 +62,6 @@ nav li {
     padding-bottom: 50vh!important;
   }
 }
-
-
-
-
 .section-custom h5 ,h4{
   color: #E5BF00; 
 }
@@ -141,12 +83,12 @@ nav li {
   font-weight: bold;
 }
 
-
-
-
+.icon-whatsapp{
+  max-width: 13%;
+}
 
 .contactanos {
-  padding: 10px;
+  padding: 15px;
   position: relative;
   display: inline-block;
   border-left: 4px solid #E5BF00;
@@ -164,4 +106,24 @@ nav li {
   border-top-right-radius: 1px; 
 }
 
+@media(max-width:1300px){
+  .icon-whatsapp{
+    max-width: 15%!important;
+    vertical-align: text-top!important;
+  }
+}
+@media(max-width:480px){
+  .div-contactar{
+    display: flex!important;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-whatsapp{
+    max-width: 12%!important;
+    margin-left: 5px;
+  }
+  .div-mapa{
+    margin-bottom: 30px;
+  }
+}
 

@@ -3,3 +3,18 @@ body{
     background-color: #F3F3F4; 
   }
   
+/*TAMANIO TEXTO BOTON*/
+.btn-text-size{
+  font-size: 15px;
+  font-weight: bold;
+}
+.section-custom {
+  background-color: #1E1E1E; 
+}
+
+@media(max-width:480px){
+  .btn-text-size{
+    font-size: 18px;
+    font-weight: bold;
+  }
+}
