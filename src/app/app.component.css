@@ -28,6 +28,7 @@
 .mapa-google {
   width: 550px;
   height: 250px;
+  border: 1px solid #E5BF00;
 }
 
 /* seccion de quienes somos  */

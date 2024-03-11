@@ -20,7 +20,7 @@
     margin-right: 20px;
     position: relative; 
   }
-  
+ 
   .nav-link {
     text-decoration: none;
     color: #E5BF00;
@@ -103,6 +103,9 @@
     background-color: #E5BF00;
     border-top-left-radius: 1px; 
     border-top-right-radius: 1px; 
+  }
+  .icon-whatsapp{
+    max-width: 8%;
   }
   
   @media(max-width:480px){
