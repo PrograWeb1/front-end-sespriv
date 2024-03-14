@@ -4,7 +4,9 @@
   
   /* NAVS  */
   
-  
+  .w-btn{
+    width: 50%!important;
+  }
   .navbar-custom {
     background-color: #1E1E1E; 
   }
@@ -118,6 +120,9 @@
     .my-2{
       margin-top: 1rem !important;
       margin-bottom: 1rem !important;
+    }
+    .w-btn{
+      width: 80%!important;
     }
   }
   @media(max-width:415px){
