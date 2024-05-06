@@ -56,6 +56,9 @@
     font-size: 24px;
   }
   
+  #servicios{
+    scroll-margin-top: 15vh!important;
+  }
   
   
   /* seccion de quienes somos  */

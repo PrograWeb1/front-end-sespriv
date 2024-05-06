@@ -2,6 +2,16 @@
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+#inicio{
+  scroll-margin-top: 15vh!important;
+}
+#Contactos{
+  scroll-margin-top: 16vh!important;
+}
+#Quienessomos{
+  scroll-margin-top: 6vh!important;
+}
+
 .section {
   height: 500px;
   border: 1px solid #E5BF00;
